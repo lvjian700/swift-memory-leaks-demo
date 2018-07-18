@@ -13,6 +13,9 @@
 		5FB760A320FEB9A4007DAC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB760A220FEB9A4007DAC53 /* Assets.xcassets */; };
 		5FB760A620FEB9A4007DAC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB760A420FEB9A4007DAC53 /* LaunchScreen.storyboard */; };
 		5FB760B120FEB9A5007DAC53 /* swift_memory_leaks_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB760B020FEB9A5007DAC53 /* swift_memory_leaks_demoUITests.swift */; };
+		5FB760BC20FEBA71007DAC53 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB760BB20FEBA71007DAC53 /* DetailViewController.swift */; };
+		5FB760BE20FEBAB4007DAC53 /* MediaSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB760BD20FEBAB4007DAC53 /* MediaSectionView.swift */; };
+		5FB760C020FEBAD4007DAC53 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB760BF20FEBAD4007DAC53 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		5FB760AC20FEB9A5007DAC53 /* swift-memory-leaks-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-memory-leaks-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB760B020FEB9A5007DAC53 /* swift_memory_leaks_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_memory_leaks_demoUITests.swift; sourceTree = "<group>"; };
 		5FB760B220FEB9A5007DAC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB760BB20FEBA71007DAC53 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5FB760BD20FEBAB4007DAC53 /* MediaSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSectionView.swift; sourceTree = "<group>"; };
+		5FB760BF20FEBAD4007DAC53 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				5FB760A220FEB9A4007DAC53 /* Assets.xcassets */,
 				5FB760A420FEB9A4007DAC53 /* LaunchScreen.storyboard */,
 				5FB760A720FEB9A5007DAC53 /* Info.plist */,
+				5FB760BB20FEBA71007DAC53 /* DetailViewController.swift */,
+				5FB760BD20FEBAB4007DAC53 /* MediaSectionView.swift */,
+				5FB760BF20FEBAD4007DAC53 /* DetailViewModel.swift */,
 			);
 			path = "swift-memory-leaks-demo";
 			sourceTree = "<group>";
@@ -197,7 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB760BC20FEBA71007DAC53 /* DetailViewController.swift in Sources */,
+				5FB760BE20FEBAB4007DAC53 /* MediaSectionView.swift in Sources */,
 				5FB7609E20FEB9A1007DAC53 /* ViewController.swift in Sources */,
+				5FB760C020FEBAD4007DAC53 /* DetailViewModel.swift in Sources */,
 				5FB7609C20FEB9A1007DAC53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
