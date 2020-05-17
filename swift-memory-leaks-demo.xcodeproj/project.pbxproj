@@ -155,9 +155,11 @@
 				TargetAttributes = {
 					5FB7609720FEB9A1007DAC53 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 					};
 					5FB760AB20FEB9A5007DAC53 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 						TestTargetID = 5FB7609720FEB9A1007DAC53;
 					};
 				};
@@ -380,7 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lv.swift-memory-leaks-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -397,7 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lv.swift-memory-leaks-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -415,7 +417,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lv.swift-memory-leaks-demoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "swift-memory-leaks-demo";
 			};
@@ -434,7 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lv.swift-memory-leaks-demoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "swift-memory-leaks-demo";
 			};
